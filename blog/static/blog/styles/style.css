@@ -1,0 +1,95 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    color: #333;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 60px; 
+    background-image: url("https://i.gifer.com/XOsX.gif");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 { 
+    font-size: 1.3em;
+}
+
+h4, h5, h6 {
+    font-size: 1.3em;
+}
+
+h1.avatar-top {
+    font-size: 1.4em;
+    margin-left: -12.2em;
+    background-image: url("https://detifest2019.lisa.ru/images/tild6135-3031-4937-b338-666263663831__bubbles-blue.png");
+    width: 1904;
+    height: 150;
+}
+
+h1.avatar-top img {
+    width: 70px;
+    clip-path: circle(30px at center);
+}
+
+.page-header {
+    height: 10em;
+}
+
+.article-summary { /*Отвечает кратко*/
+    margin-bottom: 2.7em;
+    color: #777; 
+    margin-right: 10;
+    text-align: justify;
+    font-size: 105%;
+    
+}
+
+.article-text { /*Отвечает за полный текст*/
+    margin-top: 1em;
+    color: #333;
+    text-align: justify;
+    line-height: 33px;
+    text-indent: 35px;
+    font-size:115%;
+}
+
+h2.article-title { /*Отвечает за заголовок второй страницы*/
+    font-weight: 100;
+}
+
+h2.article-title a { /*Отвечает за заголовок домашней страницы*/
+    text-decoration:none;
+    color: #333;
+    
+}
+
+h2.article-title a:hover { /*Отвечает за цвет наводки на заголовок*/
+    text-decoration: none;
+    color:#777;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10px; 
+    line-height: 60px; 
+    color: #777;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+  
+

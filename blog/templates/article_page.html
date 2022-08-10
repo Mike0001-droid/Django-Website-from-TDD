@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Михаил Майоров{% endblock %}
+{% block content %}
+    <div class="row">
+        <div class="col-lg-9 col-sm-12" >
+            <div class="article">
+                <h2 class="article-title">{{article.title}}</h2>   
+                <p class="article-text">{{article.full_text | safe}}</p>
+            </div>
+        </div>
+    </div> 
+{% endblock %}
